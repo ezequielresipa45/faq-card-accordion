@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 11px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+:root {
+  font-size: 10px;
+}
+
+a {
+  color: #3e52a3;
+}
+
+body {
+  background: #FC5C7D;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #6565e7, #af67e9);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #6565e7, #af67e9);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  width: 938px;
+  height: 510px;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  -webkit-box-shadow: 0px 25px 50px 12px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 25px 50px 12px rgba(0, 0, 0, 0.26);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  z-index: 1;
+}
+.contenedor .imagen {
+  width: 50%;
+}
+.contenedor .texto {
+  width: 50%;
+  padding-top: 7.5rem;
+  padding-left: 2.5rem;
+  overflow: hidden;
+}
+.contenedor .texto h1 {
+  font-size: 3.3rem;
+}
+.contenedor .texto .cajas-texto #imagen,
+.contenedor .texto .cajas-texto #imagen2,
+.contenedor .texto .cajas-texto #imagen3,
+.contenedor .texto .cajas-texto #imagen4,
+.contenedor .texto .cajas-texto #imagen5 {
+  width: 15px;
+  height: 10px;
+}
+.contenedor .texto .cajas-texto .clase_image {
+  transform: rotate(180deg);
+}
+.contenedor .texto .cajas-texto h2 {
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+  color: #4a4b5e;
+  width: 35rem;
+  font-weight: 200;
+}
+.contenedor .texto .cajas-texto h2:hover {
+  cursor: pointer;
+  color: #f47c57;
+}
+.contenedor .texto .cajas-texto #p-texto,
+.contenedor .texto .cajas-texto #p-texto2,
+.contenedor .texto .cajas-texto #p-texto3,
+.contenedor .texto .cajas-texto #p-texto4,
+.contenedor .texto .cajas-texto #p-texto5 {
+  width: 75%;
+  font-size: 12px;
+  color: #787887;
+  margin-top: 1rem;
+  line-height: 2rem;
+}
+.contenedor .texto .cajas-texto hr {
+  width: 350px;
+  height: 1px;
+  margin-top: 1rem;
+  border: none;
+  background-color: #e7e7e9;
+}
+
+.uno {
+  position: absolute;
+  transform: translate(-58%, -31%);
+  z-index: 1;
+}
+
+.dos {
+  position: absolute;
+  z-index: 3;
+  transform: translate(-256%, 28%);
+}
+
+.tres {
+  position: absolute;
+  z-index: 2;
+  transform: translate(-16%, 18%);
+}
+
+@media screen and (max-width: 1065px) {
+  .contenedor {
+    flex-direction: column;
+    width: 320px;
+    height: 520px;
+    overflow: visible;
+    margin-top: 5rem;
+  }
+  .contenedor h1 {
+    margin-top: 12rem;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .contenedor .texto {
+    width: 100%;
+    height: 480px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .contenedor .texto .cajas-texto {
+    width: 100%;
+    padding: 0 2rem 2rem 2rem;
+  }
+  .contenedor .texto .cajas-texto h2 {
+    width: 100%;
+    font-size: 1.3rem;
+  }
+  .contenedor .texto .cajas-texto hr {
+    width: 100%;
+  }
+  .contenedor .texto .cajas-texto #p-texto,
+.contenedor .texto .cajas-texto #p-texto2,
+.contenedor .texto .cajas-texto #p-texto3,
+.contenedor .texto .cajas-texto #p-texto4,
+.contenedor .texto .cajas-texto #p-texto5 {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .uno {
+    width: 220px;
+    transform: translate(25%, -55%);
+  }
+
+  .dos {
+    width: 90px;
+    transform: translate(-75%, -298%);
+  }
+
+  .tres {
+    width: 220px;
+    transform: translate(25%, -62%);
+  }
+}
+
+/*# sourceMappingURL=app.css.map */

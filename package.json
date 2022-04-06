@@ -1,0 +1,14 @@
+{
+  "name": "faq-accordion-card-main",
+  "version": "1.0.0",
+  "description": "Card with Js",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css"
+  },
+  "author": "Resipa Ezequiel",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.49.10"
+  }
+}

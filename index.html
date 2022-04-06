@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="build/css/app.css" />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+  </head>
+  <body>
+    <img class="dos" src="images/illustration-box-desktop.svg" alt="" />
+    <div class="contenedor" id="contenedor">
+      <div class="imagen">
+        <img class="uno" src="images/bg-pattern-desktop.svg" alt="" />
+
+        <img
+          class="tres"
+          src="images/illustration-woman-online-desktop.svg"
+          alt=""
+        />
+      </div>
+
+      <div class="texto">
+        <h1>FAQ</h1>
+
+        <div class="cajas-texto">
+          <h2
+            onclick="desplegar('imagen','p-texto','You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.','texto_desplegar')"
+            id="texto_desplegar"
+          >
+            How many team members can I invite?
+
+            <img id="imagen" src="images/icon-arrow-down.svg" />
+          </h2>
+
+          <p id="p-texto"></p>
+
+          <hr />
+
+          <h2
+            onclick="desplegar('imagen2','p-texto2','No more than 2GB. All files in your account must fit your allotted storage space.','texto_desplegar2')"
+            id="texto_desplegar2"
+          >
+            What is the maximum file upload size?
+
+            <img id="imagen2" src="images/icon-arrow-down.svg" />
+          </h2>
+
+          <p id="p-texto2"></p>
+
+          <hr />
+
+          <h2
+            onclick="desplegar('imagen3','p-texto3','Click “Forgot password” from the login page or “Change password” from your profile page.A reset link will be emailed to you.','texto_desplegar3')"
+            id="texto_desplegar3"
+          >
+            How do I reset my password?
+
+            <img id="imagen3" src="images/icon-arrow-down.svg" />
+          </h2>
+
+          <p id="p-texto3"></p>
+
+          <hr />
+
+          <h2
+            onclick="desplegar('imagen4','p-texto4','Click “Yes! Send us a message and we’ll process your request no questions asked.','texto_desplegar4')"
+            id="texto_desplegar4"
+          >
+            Can I cancel my subscription?
+
+            <img id="imagen4" src="images/icon-arrow-down.svg" />
+          </h2>
+
+          <p id="p-texto4"></p>
+
+          <hr />
+
+          <h2
+            onclick="desplegar('imagen5','p-texto5','Chat and email support is available 24/7. Phone lines are open during normal business hours.','texto_desplegar5')"
+            id="texto_desplegar5"
+          >
+            Do you provide additional support?
+
+            <img id="imagen5" src="images/icon-arrow-down.svg" />
+          </h2>
+
+          <p id="p-texto5"></p>
+
+          <hr />
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

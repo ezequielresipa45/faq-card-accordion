@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 11px;
+    
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+:root{
+    font-size: 10px;
+}
+
+a{
+    color: #3e52a3;
+}
+
+body{
+background: #FC5C7D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #6565e7, #af67e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #6565e7, #af67e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+height: 100vh;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+// Text Primary
+
+$Verydarkdesaturatedblue: #1d1e35;
+$Softred: #f47c57;
+
+// Background gradient
+
+$Softviolet: #af67e9;
+$Softblue: #6565e7;
+
+//  Text
+
+$Verydarkgrayishblue: #4a4b5e;
+$Darkgrayishblue: #787887;
+
+//Dividers
+
+$Lightgrayisblue: #e7e7e9;
+
