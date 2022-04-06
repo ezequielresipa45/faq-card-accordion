@@ -1,2 +1,2 @@
-# accordion-card
-Accordion Card with HTML SCSS JAVASCRIPT
+# FAQ Accordion-card 
+## Accordion Card with HTML SCSS JAVASCRIPT | 
